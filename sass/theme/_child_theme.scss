@@ -1,0 +1,65 @@
+
+//nav menu
+
+
+div#primary{
+  background-color: $red-color;
+}
+
+.front-page-column-2{
+  background-color: $red-dark;
+}
+
+#primary-nav {
+  border-radius: 0px;
+}
+#main-menu :nth-child(1){
+  margin-left: 0px;
+}
+
+#main-menu > li:not(first-child){
+  margin-left: 50px;
+}
+
+#main-menu a {
+  color: $yellow-color;
+}
+
+.navbar-brand{
+  color: $red-color;
+}
+
+
+
+
+
+.centered{
+  text-align: center;
+}
+#evan-header{
+  background-color: #26A1E2;
+  height: $header-height;
+}
+
+#main-heading{
+  text-align: center;
+  padding-top: $header-height / 2;
+  margin: 0px;
+}
+
+body{
+  background-color: $yellow-color;
+  font-size: 20px;
+}
+
+#main p {
+  color: $dark-grey;
+}
+
+#menu-item-12 > a {
+  background-color: #222;
+}
+
+#main > h1 {
+  color: $red-color;
+}
